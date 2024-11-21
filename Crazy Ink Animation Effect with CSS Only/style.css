@@ -21,14 +21,10 @@ body{
     content: '';
     position: absolute;
     inset: 0;
-    background-image: url(bg.jpg);
+    background-image: url(bg1.jpg);
     background-size: cover;
     background-position: center;
     z-index: -1;
-
-
-
-
     mask-image: url(gig-unscreen.gif);
     mask-size: cover;
     mask-position: center;
