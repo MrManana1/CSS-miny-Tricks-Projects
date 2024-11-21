@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    background: #000;
+    color: #fff;
+}
+
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+}
+
+.banner .content .tittle{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 4em;
+}
+
+.banner::before{
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image: url(bg.jpg);
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+
+
+
+
+    mask-image: url(gig-unscreen.gif);
+    mask-size: cover;
+    mask-position: center;
+}
